@@ -1,0 +1,42 @@
+p {
+animation-duration: 6s, 4s, 2s ;
+animation-name: bouncein, bounceup, bouncedown ;
+}
+
+@keyframes bouncedown{
+from{
+margin-left: 110%;
+width:300%;
+margin-top: 100%
+}
+to{
+margin-left: 75%;
+width:300%;
+margin-top:0%;
+}
+}
+@keyframes bounceup{
+  from{
+    margin-left:75%;
+    width:300%;
+    margin-top:0%;
+  }
+  to{
+    margin-left:50%;
+    width:300%;
+    margin-top:80%;
+  }
+}
+@keyframes bouncein{
+  from{
+    margin-left:50%;
+    width:300%;
+    margin-top:80%;
+  }
+  to{
+    margin-left:25%;
+    width:300%;
+    margin-top:5%;
+  }
+}
+
